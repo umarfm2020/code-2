@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #101820;
+  color: #fff;
+  margin: 0;
+  padding: 70px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #101820, #aa9d25, #101820);
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+     
+.footer {
+  background: linear-gradient(to right, #101820, #aa9d25, #101820);
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+      
+.navbar a:hover {
+  color: #aa9d25;
+}
+
+.gallery-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 2em;
+  color: #fff6f6;
+}
+
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 16px;
+  scroll-behavior: smooth;
+}
+
+.scroll-gallery img {
+  height: 220px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+  background: #fff;
+}
+
+.scroll-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
