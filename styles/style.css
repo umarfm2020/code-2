@@ -133,6 +133,45 @@ body {
   }
 }
 
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 80px;
+    font-size: 1.2em;
+    padding: 20px 0;
+  }
+  .navbar a {
+    padding: 16px 12px;
+  }
+  body {
+    padding-top: 80px;
+  }
+  .home-container, .player-grid, .video-gallery {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  .maintitle {
+    font-size: 1.5em !important;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .video-card video, .video-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card {
+    padding-bottom: 10px;
+  }
+  .player-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+  }
+}
+
 input[type="search"], select {
   font-size: 1rem;
   border: 2px solid #ccc;

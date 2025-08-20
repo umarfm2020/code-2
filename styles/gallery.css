@@ -18,7 +18,18 @@ body {
   width: 100%;
   z-index: 100;
 }
-     
+ 
+@media (max-width: 600px) {
+  .navbar {
+    height: 80px;
+    font-size: 1.2em;
+    padding: 20px 0;
+  }
+  .navbar a {
+    padding: 16px 12px;
+  }
+}
+
 .footer {
   background: linear-gradient(to right, #101820, #aa9d25, #101820);
   padding: 12px 0;
