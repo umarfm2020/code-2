@@ -38,24 +38,248 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  margin-bottom: 12px;
 }
  
 @media (max-width: 600px) {
   .navbar {
-    height: 80px;
-    font-size: 1.2em;
-    padding: 20px 0;
+    font-size: 0.8em;
+    padding: 5px;
   }
   .navbar a {
     padding: 16px 12px;
   }
+  footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
 }
 
+@media (max-width: 700px) {
+  .navbar{
+      gap: 0px;
+    }
+  footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+}
+
+@media (width: 344px) {
+  .navbar{
+      gap: 0px;
+      padding: 0px;
+      font-size: 0.95em;
+      font-weight: bold;
+    }
+  .navbar a{
+    padding: none;
+  }
+}
+
+@media (max-width: 690px) {
+  .navbar{
+      gap: 0px;
+      padding: 6px;
+    }
+}
+
+@media (max-width: 320px){
+  .navbar{
+    font-size: 0.75em;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 412px) {
+  .navbar{
+      gap: 0px;
+      padding: 3px;
+    }
+
+  .navbar a{
+    padding: 4px;
+    font-size: 0.9em;
+  }
+}
+
+@media(width: 1280px){
+  .navbar{
+      padding: 20px;
+    }
+}
+
+@media (max-width: 384px) {
+   .navbar{
+      gap: 4px;
+    }
+    .navbar a{
+      padding: 5px;
+      font-size: 0.8em;
+    }
+}
+
+@media(max-width: 640px){
+  .navbar{
+      gap: 8px;
+    }
+    .navbar a{
+      padding: 5px;
+      font-size: 0.8em;
+    }
+    .dropbtn{
+      font-size: 0.8em;
+    }
+}
+
+@media (max-width: 240px){
+  .navbar{
+      gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+    .navbar a{
+      padding: 5px;
+    }
+    .dropbtn{
+      font-size: 0.6em;
+    }
+    body{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+}
+
+@media(width: 768px){
+    .navbar{
+      gap: 32px;
+    }
+    footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+}
+
+@media (width: 600px) {
+  .navbar {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+  body {
+    padding-top: 80px;
+  }
+  .home-container, .player-grid, .video-gallery {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  .maintitle {
+    font-size: 1.5em !important;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  }
+  .card {
+    padding-bottom: 10px;
+  }
+  .player-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+  }
+
+@media (max-width:1024px){
+  .navbar a{
+    padding: 12px;
+  }
+  footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+}
+
+@media (max-width:540px){
+  .navbar a{
+    padding: none;
+  }
+  footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+}
+
+@media(width: 375px){
+    .navbar a{
+    padding: none;
+  }
+  .navbar{
+    padding: 7px;
+  }
+
+  .navbar a{
+     padding: 5px;
+  }
+
+  .navbar {
+    font-size: 1em;
+    width: 100%;
+  }
+  body {
+    padding-top: 80px;
+  }
+  .home-container, .player-grid, .video-gallery {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  .maintitle {
+    font-size: 1.5em !important;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .video-card video, .video-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card {
+    padding-bottom: 10px;
+  }
+  .player-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  footer{
+       gap: 4px;
+      font-size: 0.6em;
+      width: 100%;
+    }
+}
 .navbar a {
   color: #fff;
   text-decoration: none;
